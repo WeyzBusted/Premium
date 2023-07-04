@@ -37,7 +37,7 @@ from phonenumbers.phonenumberutil import (
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '5610197236:AAHxXfzPgQDKi-sL5JjgG7OCKGOnVNN4ooQ'
+API_TOKEN = '6329695473:AAFVzBkFdAadnH9wENKks4NIxKNOQQHDGVM'
 
 bot = Bot(token=API_TOKEN, parse_mode='html')
 
@@ -45,8 +45,8 @@ bot = Bot(token=API_TOKEN, parse_mode='html')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
-updates = -1001749004197
-admin = 5497224292
+updates = -1001821283857
+admin = 5994508851
 user_timer = False
 
 
